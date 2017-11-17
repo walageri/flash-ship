@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detail_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Iphone 7 Plus"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Operating System"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/detail_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="iOS 10.0.1, upgradable to iOS 10.2"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Layar"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_layar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="LED-backlit IPS LCD, capacitive touchscreen, 16M colors 5.5 inches 1080 x 1920 pixels (~401 ppi pixel density)"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kamera"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_kamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ᵜ Belakang : Dual 12 MP, (28mm, f/1.8, OIS &amp; 56mm, f/2.8), phase detection autofocus, 2x optical zoom, quad-LED (dual tone) flash\n\nᵜ Depan :7 MP, f/2.2, 32mm, 1080p@30fps, 720p@240fps, face detection, HDR, panorama"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Chipset"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_chipset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Apple A10 Fusion"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Prosesor"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_prosesor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Quad-core 2.23 GHz"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GPU"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_gpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="(six-core graphics)"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Memory"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_memori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ᵜ RAM :3 GB RAM\n\nᵜ Internal :32/128/256 GB, GB"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Batteri"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_batteri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Non-removable Li-Ion 2900 mAh"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Harga"
+        android:textSize="17sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/detail_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ᵜ versi 32 GB = Rp 13.700.000\nᵜ Versi 128 GB = 15.500.000\nᵜ Versi 256 GB = 17.200.000"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
